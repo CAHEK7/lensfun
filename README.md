@@ -2,6 +2,7 @@
 [![CMake-Linux](https://github.com/lensfun/lensfun/actions/workflows/cmake-linux.yml/badge.svg)](https://github.com/lensfun/lensfun/actions/workflows/cmake-linux.yml)
 [![CMake-Windows](https://github.com/lensfun/lensfun/actions/workflows/cmake-windows.yml/badge.svg)](https://github.com/lensfun/lensfun/actions/workflows/cmake-windows.yml)
 [![CMake-MSYS2](https://github.com/lensfun/lensfun/actions/workflows/cmake-msys2.yml/badge.svg)](https://github.com/lensfun/lensfun/actions/workflows/cmake-msys2.yml)
+[![codecov](https://codecov.io/gh/CAHEK7/lensfun/graph/badge.svg?token=SOE1M8ZSFX)](https://codecov.io/gh/CAHEK7/lensfun)
 
 WHAT IS IT
 ----------
