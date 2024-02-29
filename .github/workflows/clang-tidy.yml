@@ -42,6 +42,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Checkout base ref
+      id: base-ref
       run: |
         if [ $GITHUB_BASE_REF ]; then 
           git fetch origin "${GITHUB_BASE_REF}:refs/remotes/origin/${GITHUB_BASE_REF}"
