@@ -106,6 +106,7 @@ void lfModifier::ModifyColor_DeVignetting_PA_SSE2 (
         __m128i pix1_hi = _mm_mulhi_epu16 (pix1, pix_frac1);
 
         __m128i sub_32 = _mm_load_si128 ((__m128i*)_15_bit_epi32);
+        //test
         __m128i signxor = _mm_load_si128 ((__m128i*)_16_bit_sign);
 
         // Recombine multiplied values and shift down by fraction
