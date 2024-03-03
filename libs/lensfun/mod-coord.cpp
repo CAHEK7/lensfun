@@ -560,7 +560,7 @@ void lfModifier::ModifyCoord_Scale (void *data, float *iocoord, int count)
 void lfModifier::ModifyCoord_UnDist_Poly3 (void *data, float *iocoord, int count)
 {
     lfCoordDistCallbackData* cddata = (lfCoordDistCallbackData*) data;
-
+    //clang-tidy-test
     // See "Note about PT-based distortion models" at the top of this file.
     const float inv_k1_ = 1.0 / cddata->terms[0];
 
